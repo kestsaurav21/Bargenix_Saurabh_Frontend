@@ -1,28 +1,7 @@
 import React from 'react';
+import { featureList } from '../utils/featureList';
 
 const Features = () => {
-  const featureList = [
-    {
-      title: '24/7 Availability',
-      description: 'Our chatbot is always ready to assist your customers anytime, anywhere.',
-      icon: '🕒', // Example emoji or replace with a React Icon
-    },
-    {
-      title: 'Multilingual Support',
-      description: 'Communicate in any language to serve customers across the globe.',
-      icon: '🌍',
-    },
-    {
-      title: 'AI-Powered Insights',
-      description: 'Analyze customer interactions to provide actionable insights.',
-      icon: '💡',
-    },
-    {
-      title: 'Seamless Integrations',
-      description: 'Integrate effortlessly with your favorite tools and platforms.',
-      icon: '🔗',
-    },
-  ];
 
   return (
     <section id="features" className="bg-gray-50 py-16">
@@ -35,7 +14,6 @@ const Features = () => {
           </p>
         </div>
 
-        {/* Feature Grid */}
         <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10">
           {featureList.map((feature, index) => (
             <div
