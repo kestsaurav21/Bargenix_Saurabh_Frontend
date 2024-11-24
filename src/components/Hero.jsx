@@ -3,7 +3,7 @@ import logo from "../assets/logo.avif";
 
 
 const Hero = () => (
-  <section className="bg-gray-100 py-16">
+  <section className="bg-gray-100 py-40">
     <div className="container mx-auto px-6 md:flex md:items-center md:justify-between">
       <div className="text-center md:text-left md:max-w-xl">
         <h1 className="text-4xl font-bold text-gray-800 md:text-5xl">
