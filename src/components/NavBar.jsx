@@ -19,7 +19,7 @@ const NavBar = () => {
   return (
     <div className="py-6 px-4 sm:px-10 md:px-14 lg:px-28 flex justify-between items-center bg-black text-white relative">
       {/* Logo Section */}
-      <div onClick={() => navigate('/home')}
+      <div onClick={() => navigate('/')}
       className="w-24 sm:w-32 lg:w-40 flex items-center gap-2 cursor-pointer">
         <img className="w-16" src={logo} alt="logo" />
         <span className="text-md font-semibold sm:text-md lg:text-xl italic">
