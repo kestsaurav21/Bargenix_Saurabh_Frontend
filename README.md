@@ -1,6 +1,7 @@
-# Chatbot Web Application (Static UI)
+# Chatbot Application Landing Page
 
-A simple, responsive chatbot web application built with React.js and Tailwind CSS. This is a static user interface (UI) that simulates a chatbot interaction without any backend functionality.
+A responsive and interactive landing page for a chatbot product, built with React.js and styled using Tailwind CSS. This project features a clean, modern UI showcasing the chatbot's features, pricing plans, and an interactive mock chatbox for users to explore.
+
 
 ## Features
 
@@ -15,3 +16,36 @@ A simple, responsive chatbot web application built with React.js and Tailwind CS
 You can view the live demo of the chatbot web application here:
 
 [Live Demo](https://bargenix-ai-chatbot.netlify.app/) 
+
+## Getting Started
+
+To view the chatbot UI locally, follow these steps:
+
+### Prerequisites
+
+Ensure that you have **Node.js** and **npm** installed on your machine. You can verify this by running:
+
+
+## Setup and Installation
+
+To run the game locally, follow these steps:
+
+1. **Clone the Repository**:
+
+   ```bash
+   git clone https://github.com/kestsaurav21/chatbot-landing-page.git
+
+2. **Navigate to the Project Directory**:
+
+    ```bash
+    cd chatbot-landing-page
+
+3. **Install dependencies**:
+
+    ```bash
+    npm install
+
+4. **Run the Application**:
+
+    ```bash
+    npm run dev
